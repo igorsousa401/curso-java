@@ -1,0 +1,15 @@
+package fundamentos.exercicios;
+
+public class Exercicio01 {
+	
+	public static void main(String[] args) {
+		
+		
+		double tF = 600;
+		double tC = (double)(tF - 32) * (5/9);
+		
+		System.out.println(tC);
+		
+		System.out.printf("A temperatura de %.2f em Celsius é de %.2f", tF, tC);
+	}
+}

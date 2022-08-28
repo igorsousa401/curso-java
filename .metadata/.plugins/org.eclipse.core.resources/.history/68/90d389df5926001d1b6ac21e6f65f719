@@ -1,0 +1,10 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class DesafioDeConversao {
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner();
+	}
+}

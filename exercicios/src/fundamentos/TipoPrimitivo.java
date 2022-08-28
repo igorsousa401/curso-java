@@ -1,0 +1,36 @@
+package fundamentos;
+
+public class TipoPrimitivo {
+	public static void main(String[] args) {
+		// Informações do Funcionário
+		
+		// Tipos númericos Inteiros
+		byte anosDeEmpresa = 23;
+		short numeroDeVoos = 542;
+		int id = 58465;
+		long pontosAcumulados= 3_654_521L;
+		
+		// Tipos numéricos reais
+		float salario = 11_445.44F;
+		double vendasAcumuladas = 2_991_779_103.05;
+		
+		// Tipo Booleano
+		boolean estaDeFerias = true;
+		
+		// Tipo caractere
+		char status = 'A'; //Ativo
+		
+		// Dias de empresa
+		int diasDeEmpresa = anosDeEmpresa * 365;
+		System.out.println("O funcionário tem " + anosDeEmpresa + " dias de empresa.");
+		
+		// Número de viagens
+		int numeroDeViagens = numeroDeVoos / 2;
+		System.out.println("O funcionário realizou um total de " + numeroDeViagens + " viagens.");
+		
+		// Pontos por real
+		double pontosPorReal = pontosAcumulados / vendasAcumuladas;
+		System.out.println("O funcionário tem um total de " + pontosPorReal + " Pontos/Real");
+		
+	}
+}

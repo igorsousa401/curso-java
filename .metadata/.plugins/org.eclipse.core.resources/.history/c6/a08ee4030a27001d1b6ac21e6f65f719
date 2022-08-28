@@ -1,0 +1,39 @@
+package fundamentos.exercicios;
+
+import java.util.Scanner;
+
+public class Exercicios06 {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Digite o valor de a: ");
+		double a = entrada.nextDouble();
+		
+		System.out.println("Digite o valor de b: ");
+		double b = entrada.nextDouble();
+		
+		System.out.println("Digite o valor de c: ");
+		double c = entrada.nextDouble();
+		
+		
+		// 1ª Parte
+		double delta = Math.pow(b, 2) - (4 * a * c);
+		
+		
+		
+		// Encontrando os valores de x' e x''
+		
+		double raizDelta = Math.pow(delta, (1/2));
+		System.out.println(raizDelta);
+		
+		double x1 = ((-b) + (raizDelta)) / (2 * a);
+		
+		
+		double x2 = (((-b) - Math.pow(delta, 1/2)) / (2 * a));
+		
+		System.out.printf("As raízes da equação são %.2f %.2f", x1, x2);
+		
+	}
+}

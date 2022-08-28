@@ -1,0 +1,28 @@
+package fundamentos.operadores;
+
+import java.util.Scanner;
+
+public class DesafioCalculadora {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Informe o primeiro número: ");
+		double num1 = entrada.nextDouble();
+		
+		System.out.println("Informe o segundo número: ");
+		double num2 = entrada.nextDouble();
+	
+		System.out.println("Informe a operação: ");
+		String operacao = entrada.next();
+		
+		double resultado = num1 ;
+		
+		
+		System.out.printf("%.2f %s %.2f", num1, operacao, num2);
+		
+		
+		entrada.close();
+	}
+}

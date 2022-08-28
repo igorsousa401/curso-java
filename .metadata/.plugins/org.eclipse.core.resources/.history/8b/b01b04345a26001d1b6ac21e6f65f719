@@ -1,0 +1,23 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class DesafioDeConversao {
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		
+		String s1 = entrada.nextLine();
+		System.out.println("");
+		String s2 = entrada.nextLine();
+		String s3 = entrada.nextLine();
+		
+		Double salario1 = Double.parseDouble(s1);
+		Double salario2 = Double.parseDouble(s2);
+		Double salario3 = Double.parseDouble(s3);
+		
+		double media = (salario1 + salario2 + salario3) / 3.0;
+		
+	}
+}
