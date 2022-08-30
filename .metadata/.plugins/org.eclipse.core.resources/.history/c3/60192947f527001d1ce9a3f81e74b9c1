@@ -1,0 +1,27 @@
+package estruturasControle;
+
+import javax.swing.JOptionPane;
+
+public class DesafioIfElseIf {
+
+	public static void main(String[] args) {
+		
+		String dia = JOptionPane.showInputDialog("Digite o nome do dia da semana: ");
+		
+		if(dia == "Domingo" || dia == "domingo") {
+			System.out.println("1");
+		} else if(dia == "Segunda" || dia == "segunda") {
+			System.out.println("2");
+		} else if(dia == "Terça" || dia == "terça") {
+			System.out.println("3");
+		} else if(dia == "Quarta" || dia == "domingo") {
+			System.out.println("4");
+		} else if(dia == "Quinta" || dia == "quinta") {
+			System.out.println("5");
+		} else if(dia == "Sexta" || dia == "sexta") {
+			System.out.println("6");
+		} else if{
+			System.out.println("7");
+		}
+	}
+}

@@ -1,0 +1,30 @@
+package estruturasControle;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class DesafioIfElseIf {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		String dia = entrada.nextLine();
+		System.out.println(dia);
+		
+		if(dia == "Domingo") {
+			System.out.println("1");
+		} else if(dia == "Segunda") {
+			System.out.println("2");
+		} else if(dia == "Terça") {
+			System.out.println("3");
+		} else if(dia == "Quarta") {
+			System.out.println("4");
+		} else if(dia == "Quinta") {
+			System.out.println("5");
+		} else if(dia == "Sexta") {
+			System.out.println("6");
+		}
+	}
+}

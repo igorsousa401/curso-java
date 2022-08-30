@@ -1,0 +1,32 @@
+package estruturasControle;
+
+import java.util.Scanner;
+
+public class DesafioWhile {
+
+	public static void main(String[] args) {
+		
+		
+		Scanner entrada= new Scanner(System.in);
+		
+		
+			
+		double media = 0;
+		int i = 0;
+		
+		
+		while(i != -1) {
+			i = entrada.nextInt();			
+			System.out.println("Digite uma nota");
+			double nota = entrada.nextDouble();
+			if(nota <= 10 || nota >= 0) {
+				media += nota;
+			} else {
+				System.out.println("Digite uma nota válida!");
+			}
+			
+		}
+		entrada.close();
+	
+	}
+}
