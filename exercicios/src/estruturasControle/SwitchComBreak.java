@@ -1,4 +1,4 @@
-package fundamentos.controle;
+package estruturasControle;
 
 import java.util.Scanner;
 
@@ -34,6 +34,7 @@ public class SwitchComBreak {
 
         }
 
+        entrada.close();
 
     }
 }

@@ -1,4 +1,4 @@
-package fundamentos.controle;
+package estruturasControle;
 
 public class Continue2 {
  

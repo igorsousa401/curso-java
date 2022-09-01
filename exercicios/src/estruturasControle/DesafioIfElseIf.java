@@ -28,5 +28,8 @@ public class DesafioIfElseIf {
 		} else if(dia.equalsIgnoreCase("Sábado") || dia.equalsIgnoreCase("Sabado")) {
 			System.out.println(7);
 		}
+		entrada.close();
 	}
+
+	
 }

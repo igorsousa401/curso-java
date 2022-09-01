@@ -16,5 +16,7 @@ public class DoWhile {
 			System.out.println("Deseja sair? ");
 			valor = entrada.nextLine();
 		} while(!valor.equalsIgnoreCase("por favor"));
+		
+		entrada.close();
 	}
 }
