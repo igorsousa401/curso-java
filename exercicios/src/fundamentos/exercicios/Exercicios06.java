@@ -32,5 +32,6 @@ public class Exercicios06 {
 		
 		System.out.printf("As raízes da equação são {%.2f; %.2f}", x1, x2);
 		
+		entrada.close();
 	}
 }
