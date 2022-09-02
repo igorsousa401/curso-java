@@ -37,7 +37,7 @@ public class Exercicio06 {
                 } else if(numeroSorteado > numero) {
                     System.out.print("O número digitado é menor que o sorteado!");
                 } else {
-                    System.out.print("Você acertou o número!!!!");
+                    System.out.print("Você acertou o número!");
                 }
 
 
