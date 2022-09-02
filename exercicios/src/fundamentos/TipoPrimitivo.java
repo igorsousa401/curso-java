@@ -29,8 +29,7 @@ public class TipoPrimitivo {
 		System.out.println("O funcionário realizou um total de " + numeroDeViagens + " viagens.");
 		
 		// Pontos por real
-		double pontosPorReal = pontosAcumulados / vendasAcumuladas;
+		double pontosPorReal = pontosAcumulados / salario;
 		System.out.println("O funcionário tem um total de " + pontosPorReal + " Pontos/Real");
-		
 	}
 }
