@@ -4,9 +4,9 @@ public class ProdutoTeste {
     
     public static void main(String[] args) {
     
-        Produto p1 = new Produto("Notebook", 4559.99, 0.10);
+        Produto p1 = new Produto("Notebook", 4559.99);
 
-        var p2 = new Produto("Gol 1.0 2009", 25000.99, 0.10);
+        var p2 = new Produto("Gol 1.0 2009", 25000.99);
 
         System.out.println(p1.preco);
 
