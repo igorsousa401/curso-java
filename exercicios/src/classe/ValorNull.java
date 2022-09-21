@@ -12,7 +12,7 @@ public class ValorNull {
 
         if(d1 != null) {
             d1.dia = 30;
-            System.out.println(d);
+            System.out.println(d1.dia);
         }
 
     }
